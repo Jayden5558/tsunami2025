@@ -1,0 +1,8 @@
+# Cloudflare Pages Redirects Configuration
+
+# SPA fallback - redirect all non-file requests to index.html
+/*    /index.html   200
+
+# Optional: Redirect common paths
+/home    /    301
+/index   /    301
